@@ -12,12 +12,50 @@ support 1B+ accounts, leveraging zero-knowledge SNARK proofs and Merkle tree com
 library, with comprehensive unit tests and integration tests.
 • Automated the liability proof generation pipeline as a bi-weekly cron job using the Snowflake SDK, Python, and
 Postgres; deployed it via Docker and Kubernetes, with CI/CD integration through GitHub Actions.
+Engineered a secure, iframe-based integration for a core chat interface that mitigated clickjacking risks and bypassed
+content security restrictions (with Scala and TypeScript), successfully launching to over 150 weekly active users.
+• Built an automated data extraction pipeline utilizing graph algorithms to aggregate semantic workspace knowledge
+into centralized metric views.
+• Optimized backend logging infrastructure by migrating debug logs from a network-constrained storage system to a
+pod-local cache, bypassing storage limits and accelerating the software deployment cycle.
 */
 
 const experiences = [
   {
-    id: 4,
-    period: 'May 2025 - Present',
+    id: 0,
+    period: 'May 2026 - Present',
+    title: 'Software Engineer Intern',
+    company: 'Snowflake',
+    skills: ['C++', 'SQL', 'Java', 'DBMS'],
+    bullets: [
+      'Optimizing hybrid table index backfill on the Unistore Query Processing team.',
+    ],
+  },
+  {
+    id: 1,
+    period: 'May 2026 - Present',
+    title: 'Undergraduate Research Assistant',
+    company: 'University of Waterloo',
+    skills: ['PyTorch', 'Python', 'HuggingFace'],
+    bullets: [
+      'Developing ML pipelines to enforce accurate physics in 2D image to 3D reconstruction under Prof. Yuhao Chen.'
+    ],
+  },
+  {
+    id: 2,
+    period: 'Jan - May 2026',
+    title: 'Software Engineer Intern',
+    company: 'Databricks',
+    skills: ['TypeScript', 'Scala', 'React', 'Bazel'],
+    bullets: [
+      'Engineered a secure, iframe-based integration for a core chat interface that mitigated clickjacking risks and bypassed content security restrictions (with Scala and TypeScript), successfully launching to over 150 weekly active users.',
+      'Built an automated data extraction pipeline utilizing graph algorithms to aggregate semantic workspace knowledge into centralized metric views.',
+      'Optimized backend logging infrastructure by migrating debug logs from a network-constrained storage system to a pod-local cache, bypassing storage limits and accelerating the software deployment cycle.',
+    ],
+  },
+  {
+    id: 3,
+    period: 'May - Aug 2025',
     title: 'Software Engineer Intern',
     company: 'BitGo',
     skills: ['Go', 'Python', 'Docker', 'Kubernetes', 'Postgres', 'Snowflake', 'zk-SNARKs'],
@@ -28,8 +66,8 @@ const experiences = [
     ],
   },
   {
-    id: 1,
-    period: 'Sep 2024 - Present',
+    id: 4,
+    period: 'Sep - Dec 2024',
     title: 'Software Engineer Intern',
     company: 'Titan',
     skills: ['GraphQL', 'React Native', 'Node.js', 'TypeScript', 'MongoDB', 'Datadog', 'Jest'],
@@ -40,7 +78,7 @@ const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 5,
     period: 'Jan - Apr 2024',
     title: 'Software Engineer Intern',
     company: 'Ground News',
@@ -54,10 +92,10 @@ const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 6,
     period: 'May - Aug 2023',
-    title: 'Software Engineer Intern',
-    company: 'Cynorix',
+    title: 'Software Engineer Intern & Student Rearcher',
+    company: 'University of Waterloo',
     skills: ['REST', 'Node.js', 'Express', 'TypeScript', 'MongoDB', 'Firebase', 'Redis', 'Postman'],
     bullets: [
       'Researched and prototyped a novel multi-factor authentication (MFA) system under Prof. Amir Khandani to authenticate users based on geolocation and local network data.',
@@ -69,7 +107,7 @@ const experiences = [
     ],
   },
   {
-    id: 4,
+    id: 7,
     period: 'May 2022 - June 2023',
     title: 'Fullstack Software Developer',
     company: 'Resurrection C.S.S.',

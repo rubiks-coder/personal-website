@@ -10,7 +10,7 @@ const Project = () => {
       title: 'CadenceDB',
       subtitle: 'Caching database (key-value store) that supports replication with a master-slave architecture. Working on turning this into a full, real-time, NoSQL database.',
       imageSrc: '/assets/CadenceDB.png',
-      githubLink: 'https://github.com/RubiksCoder/Cadence',
+      githubLink: 'https://github.com/rubiks-coder/Cadence',
       skills: ["Go"]
     },
     {
@@ -18,7 +18,7 @@ const Project = () => {
       title: 'Self Driving Car',
       subtitle: 'A small lane-following car made by training a CNN in TensorFlow.',
       imageSrc: '/assets/SelfDrivingCar.png',
-      githubLink: 'https://github.com/RubiksCoder/Self-Driving-Car',
+      githubLink: 'https://github.com/rubiks-coder/Self-Driving-Car',
       skills: ["Tensorflow", "TFLite", "OpenCV", "RaspberryPi", "Python"]
     },
     {
@@ -34,7 +34,7 @@ const Project = () => {
       title: 'ShakespeareGPT',
       subtitle: 'A character-level text generating transformer to generate unlimited Shakespeare!',
       imageSrc: '/assets/ShakespeareGPT.png',
-      githubLink: 'https://github.com/RubiksCoder/ShakespeareGPT',
+      githubLink: 'https://github.com/rubiks-coder/ShakespeareGPT',
       skills: ["PyTorch", "Python"]
     },
     {
@@ -58,7 +58,7 @@ const Project = () => {
       title: 'LectureGPT',
       subtitle: 'A RAG-based chatbot to answer questions about audio recordings (intended for use in university lectures).',
       imageSrc: '/assets/LectureGPT.png',
-      githubLink: 'https://github.com/RubiksCoder/LectureGPT',
+      githubLink: 'https://github.com/rubiks-coder/LectureGPT',
       skills: ["LangChain", "Cohere API", "Gradio", "Python"]
     },
     {
@@ -66,7 +66,7 @@ const Project = () => {
       title: 'Rocket Escape',
       subtitle: 'A short 3d game in which the player has to maneuver a rocket around obstacles.',
       imageSrc: '/assets/RocketBlast.png',
-      githubLink: 'https://github.com/RubiksCoder/rocket-game-3d',
+      githubLink: 'https://github.com/rubiks-coder/rocket-game-3d',
       skills: ["Unity", "C#"]
     },
   ];
